@@ -8,8 +8,8 @@ else:
 
 import base64
 import irc.client
-import irc.functools as irc_functools
 import logging
+import jaraco.functools
 import os
 import signal
 import re
@@ -543,7 +543,7 @@ class ServerConnection(irc.client.ServerConnection):
     complete, the authenticated property will be True."""
 
     # save the method args to allow for easier reconnection.
-    @irc_functools.save_method_args
+    @jaraco.functools.save_method_args
     def connect(self, server, port, nickname, username=None, password=None,
                 ircname=None, capabilities=[],
                 connect_factory=irc.connection.Factory()):
