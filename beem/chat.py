@@ -58,6 +58,12 @@ class ChatWatcher():
         else:
             return user
 
+    def should_limit_sequell_lines(self, sender):
+        """Should we limit the number of lines returned by Sequell for a single
+        command? By default we allow source owner to have their responses be
+        unlimited."""
+        return sender != self.user
+
     def get_dcss_nick(self, user):
         """Return the nick we have mapped for a given user."""
 

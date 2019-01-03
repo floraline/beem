@@ -111,8 +111,12 @@ class IRCBot():
             message = _chat_var_regex.sub('@' + '|@'.join(chat_nicks), message)
 
         requester_nick = source.get_dcss_nick(requester)
-        return "!RELAY -nick {} -prefix {} -n 1 {}".format(requester_nick,
-                _QUERY_PREFIX_CHARS[query_id], message)
+        line_limit = ""
+        if source.should_limit_sequell_lines(requester):
+            line_limit = "-n 1 "
+
+        return "!RELAY -nick {} -prefix {} {}{}".format(requester_nick,
+                _QUERY_PREFIX_CHARS[query_id], line_limit, message)
 
     def expire_query_entries(self, current_time):
         """Expire query entries in the queries dict, the last returned query,
