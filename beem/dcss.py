@@ -22,9 +22,9 @@ import traceback
 _log = logging.getLogger()
 
 # How long to wait in second for a query before ignoring any result from a bot
-# and reusing the query ID. Sequell times out after 90s, but we use 120s since
+# and reusing the query ID. Sequell times out after 90s, but we use 180s since
 # there may be instances where its response is slower.
-_MAX_REQUEST_TIME = 120
+_MAX_REQUEST_TIME = 180
 # How long to wait after a connection failure before reattempting the
 # connection.
 _RECONNECT_TIMEOUT = 5
