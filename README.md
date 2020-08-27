@@ -6,6 +6,9 @@ for [DCSS](http://crawl.develz.org/wordpress/) from WebTiles chat. See the
 chat. The remaining instructions on this page are only relevant if you want to
 run a custom instance of this bot.
 
+This software was authored by [gammafunk](https://github.com/gammafunk) and is
+duplicated here for historical purposes.
+
 ### Details
 
 beem supports monitoring the chat of any number of concurrent WebTiles games

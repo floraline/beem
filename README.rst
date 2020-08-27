@@ -7,6 +7,9 @@ WebTiles chat. See the `command guide <docs/commands.md>`__ for details
 on using beem from WebTiles chat. The remaining instructions on this
 page are only relevant if you want to run a custom instance of this bot.
 
+This software was authored by `gammafunk <https://github.com/gammafunk>`__
+and is duplicated here for historical purposes.
+
 Details
 ~~~~~~~
 
