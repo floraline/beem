@@ -6,7 +6,8 @@ spectating to a game's chat, you can type commands for any of the knowledge
 bots Sequell, Gretell, or Cheibriados to have beem return the results.
 
 This bot is available on the official servers CAO, CBRO, CPO, CUE, CWZ, and
-LLD. If you need to find beem on your server, look for the user with the most
+LLD. On CKO, you can find this bot operating with the username "seam".
+If you need to find beem on your server, look for the user with the most
 spectators, since the bot will automatically watch that game.
 
 When you see beem in chat, type the following command to have beem
