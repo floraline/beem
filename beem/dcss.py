@@ -1,10 +1,7 @@
 """IRC connection management for DCSS knowledge bots"""
 
 import asyncio
-if hasattr(asyncio, "async"):
-    ensure_future = getattr(asyncio,'async')
-else:
-    ensure_future = asyncio.ensure_future
+ensure_future = asyncio.ensure_future
 
 import base64
 import irc.client

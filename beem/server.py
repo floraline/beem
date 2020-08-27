@@ -4,10 +4,7 @@ knowledge bots for DCSS from WebTiles chat."""
 import argparse
 
 import asyncio
-if hasattr(asyncio, "async"):
-    ensure_future = getattr(asyncio, 'async')
-else:
-    ensure_future = asyncio.ensure_future
+ensure_future = asyncio.ensure_future
 
 import functools
 import logging

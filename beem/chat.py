@@ -1,10 +1,7 @@
 """Chat message handling"""
 
 import asyncio
-if not hasattr(asyncio, "ensure_future"):
-    ensure_future = getattr(asyncio,'async')
-else:
-    ensure_future = asyncio.ensure_future
+ensure_future = asyncio.ensure_future
 
 import logging
 import re

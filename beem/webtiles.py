@@ -1,10 +1,7 @@
 """Creating and managing WebTiles websocket connections."""
 
 import asyncio
-if hasattr(asyncio, "async"):
-    ensure_future = getattr(asyncio,'async')
-else:
-    ensure_future = asyncio.ensure_future
+ensure_future = asyncio.ensure_future
 
 import logging
 import os
