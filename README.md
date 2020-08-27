@@ -26,14 +26,14 @@ The following are required:
 * irc module (13.1 tested)
 * pytoml module (0.1.5 tested)
 * websockets module (3.0 tested)
-* [webtiles](https://github.com/gammafunk/webtiles) module
+* [webtiles](https://github.com/floraline/webtiles) module
 
 All packages above except *webtiles* are available in PyPI. You can install the
 *webtiles* and *beem* packages directly from their respective repositories with
 pip3. For example:
 
-    pip3 install --user git+https://github.com/gammafunk/webtiles.git
-    pip3 install --user git+https://github.com/gammafunk/beem.git
+    pip3 install --user git+https://github.com/floraline/webtiles.git
+    pip3 install --user git+https://github.com/floraline/beem.git
 
 ### Configuration
 

@@ -98,7 +98,7 @@ command_period = 20
 # Send when users issue !<bot-name> help
 help_text = """I'm a bot that sends commands to the DCSS IRC knowledge
 bots. For details, see
-https://github.com/gammafunk/beem/blob/master/docs/commands.md and to have me
+https://github.com/floraline/beem/blob/master/docs/commands.md and to have me
 watch your games on this server, type: !subscribe"""
 
 # The WebTiles settings below are only relevant if not using watch_player
